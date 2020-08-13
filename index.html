@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+	pootis{
+		font-family: sans-serif;
+	}
+
+	</style>
+
+<!-- Load d3.js -->
+<body>
+
+	<div> <font face="sans-serif" size="2"><h1>Based on Historial Data, should Airlines impose more strict measures to prevent Airplane Accidents? </br></h1>
+
+		Dataset link: <a href="https://www.kaggle.com/cgurkan/airplane-crash-data-since-1908/data#">"Airplane Crash Data Since 1908"</a>
+
+
+	</font>
+
+
+		<div>
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<div id="positive"></div>
+<div id="negative"></div>
+<script src = "Positive.js"></script>
+<script src = "Negative.js"></script>
+
+
+
+<!-- <div id="my_dataviz"></div> -->
+
+<!-- Create a div where the graph will take place -->
+<!-- <div id="my_dataviz"></div> -->
+
+</body>
+<pootis>
+	<h3>Topic:</h3>
+		Given a historical dataset of airplane accidents throughout the years, one can argue if airlines should implement more strict measures to make sure such accidents do not happen. The dataset lists the accidents from 1908 to 2019, with attributes such as date, number of fatalities in terms of passengers and crew. I have implemented the charts for years between 1999 and 2019 since the last two decades seem more relevant to improving the technology. I feel like airplane companies should take more care in the manufacture of their machines, and airlines should enforce measures to make sure accidents do not happen. Even if the risk of an accident is low, one accident can kill at least a hundred people. The main dataset (which had to be processed to make the visualizations) is in the above link.
+	<h3>Right Chart:</h3>
+ The right chart is a line chart that represents the number of fatalities due to all airplane accidents, throughout the years between 1999 and 2019. The original dataset had to be processed to get the plot. It is called "Airplane_Crashes_Negative_Final.csv".It would appear that as the years go by, the number of fatalities due to airplane accidents is decreasing slightly. However, it would also appear that the fatalities per year oscillate between large numbers and smaller numbers of deaths. This means that even though technology has advanced, and that the amount of measures imposed by airlines and airports has increased, the rate of airplane fatalities has not shown a significant decrease. The plot proves that despite efforts to prevent airplane accidents, putting more effort into preventing airplane accidents will not work. 
+
+
+
+	<h3>Left Chart:</h3>
+
+	The right chart is a bar chart that represents the number of Non-Commercial airplane crashes, throughout the years between 1999 and 2019. The original dataset had to be processed to get the plot. It is called "Airplane_Crashes_Positive_Final.csv". I have implemented a tooltip that would allow the user to see the total number of accidents in that particular year, along with the total number of fatalities in that year. Based on the chart, we see that the number of Non-Commercial airplane accidents has reduced with time. This can imply that, as technology improves, and as airlines and airplane manufacturers take more precautions, the number of accidents is reducing. This plot proves that airlines should take more strict and effective measures to prevent airplane accidents.
+</pootis>
